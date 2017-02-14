@@ -169,4 +169,7 @@ textarea {
   background: linear-gradient(coral, cornsilk);
 }
 
+.list-ready {
+  display:none;
+}
 
