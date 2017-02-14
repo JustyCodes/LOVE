@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Love - make your own list of reasons you love</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+</head>
+<body>
+  <div id="wrapper-all">
+    <div>
+      
+      <div id="big-photo">
+        <img src="images/tictactoe.jpg" alt="tic tac toe">
+      </div>
+      <div id="intro">
+        <h1>Why do you love?</h1>
+        <p>Have you ever struggled with expressing, why you love that special someone in your life? Fret no more. Use our valentine-themed list-maker to quickly and easily create personalized lists of reasons why you love/like/respect someone.</p>
+        <!--COMING SOON
+        <p>Share the list on social media or in a message to show the world, how much you value them!</p>
+        -->
+      </div>
+      <div id="go-to">
+        <a href="#description">Go to list maker</a>
+      </div>
+    </div>
+    <!--description of the project-->
+    <div id="second">
+      <div id="description">
+        <h2>Make your own list!</h2>
+        <p>Make a list of reasons you love that special someone. Just type your text in the field and hit POST.</p>
+        <p>More functions to come:</p>
+        <ul>
+          <li>remove and rearrange your reasons on the list</li>
+          <li>click DONE to receive an easily shareable list that you can show the world (or, you know, just to that special person)</li>
+          <li>need inspiration? Use one of our ready-made lists</li>
+        </ul>
+      </div>
+      
+    </div>
+    <!--the div with list-maker inside-->
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <textarea class="status-box" rows="2" placeholder="Why do you love?"></textarea>
+        </div>
+      </form>
+      <div class="button-group">
+        <a href="#container" class="btn btn-primary">Post</a>
+        <a href="#list-ready" class="done">Done</a>
+      </div>
+    
+      <ul class="posts">
+      </ul>
+    </div>
+    <!--the div to appear with jQ-->
+    <div class="list-ready">
+      <ul class="posts">
+      </ul>
+    </div>
+    <!--footer starts here-->
+    <footer>
+    <p>Made by justyCodes - 2017</p>
+    <div>Icons made by <a href="http://www.flaticon.com/authors/madebyoliver" title="Madebyoliver">Madebyoliver</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+  </footer>
+  </div>
+  <a class="back-to-top" style="display: inline;" href="#"><img src="images/up-arrow.svg" alt="back to top" class="icon"></a>
+  
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/button-top.js"></script>
+  <script src="js/list-maker.js"></script>
+</body>
+</html>
